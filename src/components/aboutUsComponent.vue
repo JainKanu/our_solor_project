@@ -1,5 +1,5 @@
 <template>
-  <b-container id="about" class="text-center" style="padding-top: 50px;">
+  <b-container id="about" class="text-center" style="padding-top: 50px;height: 100vh;">
     <h2 class="header-text">About Us</h2>
     <b-row>
       <b-col cols="6">

@@ -1,6 +1,6 @@
 <template>
-  <div style="overflow-y: hidden;">
-    <div id="home" style="padding-top: 7rem;">
+  <div id="home" style="overflow-y: hidden;">
+    <!-- <div style="padding-top: 7rem;">
       <b-container class="text-left">
         <b-row class="d-flex">
           <b-col cols="6" style="transform: translateY(100px);">
@@ -12,31 +12,25 @@
           </b-col>
         </b-row>
       </b-container>
-    </div>
-    <!-- <b-carousel
+    </div> -->
+    <b-carousel
       id="carousel-1"
       v-model="slide"
-      :interval="4000"
+      :interval="3000"
       controls
       indicators
       background="#ababab"
       :img-width="1024"
-      :img-height="240"
-      style="text-shadow: 1px 1px 2px #333; height: 445px;"
+      :img-height="480"
+      style="text-shadow: 1px 1px 2px #333; height: 100vh;"
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
     >
-      <b-carousel-slide
-        caption="First slide"
-        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="https://picsum.photos/1024/480/?image=52"
-      ></b-carousel-slide>
-      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
-        <h1>Hello world!</h1>
-      </b-carousel-slide>
-      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=58"></b-carousel-slide>
-      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=55"></b-carousel-slide>
-    </b-carousel>-->
+      <b-carousel-slide :img-src="require('../assets/carouselImages/so5.jpg')"></b-carousel-slide>
+      <b-carousel-slide :img-src="require('../assets/carouselImages/agwp2-1024x768.jpg')"></b-carousel-slide>
+      <b-carousel-slide :img-src="require('../assets/carouselImages/agriculture.jpg')"></b-carousel-slide>
+      <b-carousel-slide :img-src="require('../assets/carouselImages/solar_2.jpg')"></b-carousel-slide>
+    </b-carousel>
   </div>
 </template>
 <script>
