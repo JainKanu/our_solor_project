@@ -61,15 +61,15 @@
           <dl class="col-md-3 contact-list">
             <dt>email:</dt>
             <dd>
-              <a href="mailto:#">puneetjain0001@gmail.com</a>
+              <a href="mailto:puneetjain0001@gmail.com">puneetjain0001@gmail.com</a>
             </dd>
           </dl>
           <dl class="col-md-3 contact-list">
             <dt>phones:</dt>
             <dd>
-              <a href="tel:#" style="margin-right: 10px;">7973591402</a>
+              <a href="tel:7973591402" style="margin-right: 10px;">7973591402</a>
               <span>or</span>
-              <a href="tel:#" style="margin-left: 10px;">9056804009</a>
+              <a href="tel:9056804009" style="margin-left: 10px;">9056804009</a>
             </dd>
           </dl>
         </div>
