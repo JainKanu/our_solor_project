@@ -1,27 +1,80 @@
 <template>
-  <div id="contat_us">
-    <b-container>
-      <div class="form-holder">
-        <h2 class="header-text">Contact</h2>
-        <form id="textarea" action="https://formspree.io/mayokqjb" method="POST">
-          <div class="form-group">
-            <input class="form-control" placeholder="Enter Your Name" type="text" name="name" />
-          </div>
-          <div class="form-group">
-            <input
-              class="form-control"
-              placeholder="Enter Your Email Address"
-              type="email"
-              name="email"
-            />
-          </div>
-          <div class="form-group">
-            <textarea placeholder="Enter Comments..." class="form-control" name="comments" rows="3"></textarea>
-          </div>
-          <button class="btn btn-primary btn-gradient submit" type="submit">Subscribe</button>
-        </form>
+  <div>
+    <div id="contat_us" style="margin-bottom: 5rem;">
+      <b-container>
+        <div class="form-holder">
+          <h2 class="header-text">Contact</h2>
+          <form id="textarea" action="https://formspree.io/moqkkkrb" method="POST">
+            <div class="form-group">
+              <input class="form-control" placeholder="Enter Your Name" type="text" name="name" />
+            </div>
+            <div class="form-group">
+              <input
+                class="form-control"
+                placeholder="Enter Your Email Address"
+                type="email"
+                name="email"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                class="form-control"
+                placeholder="Enter Your Contact No."
+                type="number"
+                name="phone_number"
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                placeholder="Enter Comments..."
+                class="form-control"
+                name="comments"
+                rows="3"
+              ></textarea>
+            </div>
+            <button class="btn btn-primary btn-gradient submit" type="submit">Submit</button>
+          </form>
+        </div>
+      </b-container>
+    </div>
+    <!-- <b-navbar toggleable="lg" type="dark" variant="dark" fixed="bottom">
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav class="ml-auto">
+          <b-nav-form>
+            
+          </b-nav-form>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>-->
+    <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+      <div class="container">
+        <div class="row row-30" style="padding-top: 20px;">
+          <dl class="col-md-3 contact-list">
+          <h5>Contacts</h5>
+          </dl>
+          <dl class="col-md-3 contact-list">
+            <dt>Address:</dt>
+            <dd>Corp. Office: #73, Street No. 9, Guru Nanak Nagar, Patiala-147001</dd>
+            <!-- <br /> -->
+            <!-- <dd>Office: SCF 10-11, New Grain Market, Near HDFC Bank, Bhawanigarh</dd> -->
+          </dl>
+          <dl class="col-md-3 contact-list">
+            <dt>email:</dt>
+            <dd>
+              <a href="mailto:#">puneetjain0001@gmail.com</a>
+            </dd>
+          </dl>
+          <dl class="col-md-3 contact-list">
+            <dt>phones:</dt>
+            <dd>
+              <a href="tel:#" style="margin-right: 10px;">7973591402</a>
+              <span>or</span>
+              <a href="tel:#" style="margin-left: 10px;">9056804009</a>
+            </dd>
+          </dl>
+        </div>
       </div>
-    </b-container>
+    </footer>
   </div>
 </template>
 <script>
@@ -154,5 +207,67 @@ section.services .nav-tabs span.number {
   position: relative;
   z-index: 1;
   transition: all 0.3s !important;
+}
+.context-dark,
+.bg-gray-dark,
+.bg-primary {
+  color: rgba(255, 255, 255, 0.8);
+}
+.footer-classic {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.footer-classic a,
+.footer-classic a:focus,
+.footer-classic a:active {
+  color: #ffffff;
+}
+.nav-list li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+  margin-left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 23px;
+  font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+  content: "\f14f";
+  font: 400 21px/1 "Material Design Icons";
+  color: #4d6de6;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: -28px;
+  margin-right: 7px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.22s ease;
 }
 </style>

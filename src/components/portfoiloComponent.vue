@@ -4,21 +4,21 @@
     <b-row class="mb-4">
       <b-col cols="4">
         <b-card no-body class="overflow-hidden">
-          <b-card-img :src="require('../assets/portfoilo_01.jpg')" alt="Image" class="rounded-0" />
+          <b-card-img :src="require('../assets/porflolio/1.jpg')" style="width: 21rem; height: 21rem;" alt="Image" class="rounded-0" />
         </b-card>
       </b-col>
       <b-col cols="4">
         <b-card no-body class="overflow-hidden">
-          <b-card-img :src="require('../assets/portfoilo_02.jpg')" alt="Image" class="rounded-0" />
+          <b-card-img :src="require('../assets/porflolio/2.jpg')" style="width: 27rem; height: 21rem;" alt="Image" class="rounded-0" />
         </b-card>
       </b-col>
       <b-col cols="4">
         <b-card no-body class="overflow-hidden">
           <b-card-img
-            :src="require('../assets/portfoilo_03.jpg')"
+            :src="require('../assets/porflolio/3.jpg')"
+             style="width: 27rem; height: 21rem;"
             alt="Image"
             class="rounded-0"
-            style="height: 15rem;"
           />
         </b-card>
       </b-col>
@@ -26,17 +26,17 @@
     <b-row>
       <b-col cols="4">
         <b-card no-body class="overflow-hidden">
-          <b-card-img :src="require('../assets/portfoilo_04.jpg')" alt="Image" class="rounded-0" />
+          <b-card-img :src="require('../assets/porflolio/4.jpg')" style="width: 27rem; height: 21rem;" alt="Image" class="rounded-0" />
         </b-card>
       </b-col>
       <b-col cols="4">
         <b-card no-body class="overflow-hidden">
-          <b-card-img :src="require('../assets/portfoilo_05.jpg')" alt="Image" class="rounded-0" />
+          <b-card-img :src="require('../assets/porflolio/5.jpg')" style="width: 27rem; height: 21rem;" alt="Image" class="rounded-0" />
         </b-card>
       </b-col>
       <b-col cols="4">
         <b-card no-body class="overflow-hidden">
-          <b-card-img :src="require('../assets/portfoilo_06.jpg')" alt="Image" class="rounded-0" />
+          <b-card-img :src="require('../assets/porflolio/6.jpg')"  style="width: 27rem; height: 21rem;" alt="Image" class="rounded-0" />
         </b-card>
       </b-col>
     </b-row>
